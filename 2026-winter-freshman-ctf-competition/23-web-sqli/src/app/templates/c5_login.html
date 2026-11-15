@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card">
+  <h2>会员登录</h2>
+  {% if ok %}
+    <p class="msg-ok" data-result="success">{{ msg }}</p>
+    <table>
+      <tr><th>用户名</th><td>{{ user }}</td></tr>
+      <tr><th>角色</th><td>{{ role }}</td></tr>
+    </table>
+    {% if flag %}
+      <pre>flag = {{ flag }}</pre>
+    {% else %}
+      <p class="muted">普通用户无法查看 flag，请使用管理员账号登录。</p>
+    {% endif %}
+  {% else %}
+    <form method="post" action="/login">
+      <label for="name">用户名</label>
+      <input type="text" id="name" name="name" placeholder="admin" autocomplete="off">
+      <label for="passwd">密码</label>
+      <input type="password" id="passwd" name="passwd" placeholder="******" autocomplete="off">
+      <button type="submit">登录</button>
+    </form>
+    {% if error %}<p class="msg-bad" data-result="wrong">{{ error }}</p>{% endif %}
+  {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,13 @@
+{
+  "id": "08",
+  "slug": "08-matrix",
+  "title": "螺旋矩阵",
+  "summary": "按螺旋顺序读取矩阵，处理四条边界的收缩。",
+  "difficulty": 8,
+  "description": "实现 solve(case)，把 case[\"matrix\"] 中的数字按螺旋顺序读出来，返回一个列表。\n\n螺旋顺序：从左到右、从上到下、从右到左、从下到上，一圈一圈向里收。\n\n示例：\n[[1, 2, 3], [4, 5, 6], [7, 8, 9]] -> [1, 2, 3, 6, 9, 8, 7, 4, 5]\n[[1, 2, 3]] -> [1, 2, 3]\n[[1], [2], [3]] -> [1, 2, 3]\n[[1, 2], [3, 4]] -> [1, 2, 4, 3]",
+  "file_name": "solution.py",
+  "case_count": 20,
+  "time_limit_seconds": 6,
+  "memory_mb": 128,
+  "max_upload_bytes": 32768
+}

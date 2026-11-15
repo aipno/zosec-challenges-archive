@@ -1,0 +1,12 @@
+{
+  "id": "01",
+  "slug": "01-terminal-warmup",
+  "type": "terminal",
+  "title": "终端热身：隐藏文件里的 token",
+  "summary": "第一次使用浏览器终端：ls -la 找隐藏文件，cat 读内容，提交 token。",
+  "difficulty": 1,
+  "description": "这是一道赛前热身题，不计入比赛成绩。\n\n网页下方是一台隔离的 Linux 沙箱，直接输入命令即可。\n\n任务：\n1. 执行 ls -la，注意以 . 开头的隐藏文件。\n2. 用 cat 打开 .welcome。\n3. 把文件里的 token=... 填到下方输入框，领取 flag。\n\n提示：Tab 补全、方向键、Ctrl+C 都可以用。\n刷新页面会短暂断开连接；同一标签页 30 秒内会自动续上，超时后会话结束。",
+  "session_seconds": 900,
+  "max_sessions": 4,
+  "idle_seconds": 600
+}

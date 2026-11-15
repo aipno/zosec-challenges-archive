@@ -1,0 +1,17 @@
+{
+  "id": "18",
+  "slug": "18-misc-fake-png",
+  "type": "attachment",
+  "category": "misc",
+  "title": "打不开的图片",
+  "summary": "一张谁也打不开的「图片」。",
+  "difficulty": 2,
+  "tag": "Misc · 文件签名",
+  "description": "朋友发来一张「图片」，但任何看图软件都打不开它。\n\n下载分到的 image-*.png，从文件里找出 flag。",
+  "hints": [
+    "别只看内容——文件的字节结构本身就有问题。"
+  ],
+  "artifact": "image.png",
+  "artifact_inline": false,
+  "attachment_pool": "attachments/18-misc-fake-png/pool"
+}

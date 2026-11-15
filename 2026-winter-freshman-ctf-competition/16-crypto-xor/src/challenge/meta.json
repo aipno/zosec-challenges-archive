@@ -1,0 +1,17 @@
+{
+  "id": "16",
+  "slug": "16-crypto-xor",
+  "type": "attachment",
+  "category": "crypto",
+  "title": "被 XOR 过的秘密",
+  "summary": "一份被同一把钥匙搅乱的二进制文件。",
+  "difficulty": 2,
+  "tag": "Crypto · 单字节 XOR",
+  "description": "一个二进制文件，内容被同一个单字节密钥 XOR 过。你知道所有明文都以 `flag{` 开头。\n\n下载分到的 encrypted-*.bin，还原出完整的 flag。",
+  "hints": [
+    "已知明文的第一段，就够反推出整把钥匙。"
+  ],
+  "artifact": "encrypted.bin",
+  "artifact_inline": false,
+  "attachment_pool": "attachments/16-crypto-xor/pool"
+}

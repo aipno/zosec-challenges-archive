@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card">
+  <h2>内部面板</h2>
+  <p>此面板仅限内部访问，请勿泄露其中的配置内容。</p>
+  <table>
+    <tr><th>项目</th><th>值</th></tr>
+    <tr><td>内网地址</td><td>10.0.3.21</td></tr>
+    <tr><td>备份周期</td><td>每日 02:00</td></tr>
+    <tr><td>联系管理员</td><td>ops@example.local</td></tr>
+  </table>
+</div>
+
+<div class="card">
+  <h2>运维备注</h2>
+  <p class="muted">本页面由内网模板生成，发布前请勿将内部信息保留在源码中。</p>
+</div>
+
+<!-- 内部备注：发布前忘了删掉这段
+     面板访问令牌 = {{ flag }}
+-->
+{% endblock %}

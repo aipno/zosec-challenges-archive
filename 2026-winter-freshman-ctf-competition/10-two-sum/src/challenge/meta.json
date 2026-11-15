@@ -1,0 +1,13 @@
+{
+  "id": "10",
+  "slug": "10-two-sum",
+  "title": "两数之和",
+  "summary": "在大列表里找出两个数和为 target 的下标，需要避开 O(n²)。",
+  "difficulty": 10,
+  "description": "实现 solve(case)，在 case[\"numbers\"] 中找两个不同位置 i < j，使 numbers[i] + numbers[j] == target。\n\n- 找到任意一对即可，返回 [i, j]\n- 找不到时返回 None\n- 大数据用例每组最多约 1 万个数\n\n示例：\nnumbers = [2, 7, 11, 15], target = 9 -> [0, 1]\nnumbers = [3, 2, 4], target = 6 -> [1, 2]\nnumbers = [1, 2, 3], target = 10 -> None",
+  "file_name": "solution.py",
+  "case_count": 20,
+  "time_limit_seconds": 4,
+  "memory_mb": 256,
+  "max_upload_bytes": 32768
+}

@@ -1,0 +1,13 @@
+{
+  "id": "00",
+  "slug": "00-warmup",
+  "title": "热身题：两数相加",
+  "summary": "熟悉下载附件、补全 solve(case)、上传、拿到 flag 的完整流程。",
+  "difficulty": 1,
+  "description": "这是一道赛前热身题，不计入比赛成绩。\n\n实现 solve(case)，返回两个整数的和。\n\ncase 形如 {\"a\": 3, \"b\": 5}，返回 8。\n\n流程：下载附件 → 补全 solve(case) → 上传整个文件 → 等待评测 → 通过后获得 flag。\n\n提示：直接返回 a + b 即可。",
+  "file_name": "warmup.py",
+  "case_count": 12,
+  "time_limit_seconds": 5,
+  "memory_mb": 128,
+  "max_upload_bytes": 32768
+}

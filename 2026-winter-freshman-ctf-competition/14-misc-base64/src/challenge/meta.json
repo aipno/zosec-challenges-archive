@@ -1,0 +1,17 @@
+{
+  "id": "14",
+  "slug": "14-misc-base64",
+  "type": "attachment",
+  "category": "misc",
+  "title": "一张奇怪的纸条",
+  "summary": "一张来路不明的纸条，答案就在里面。",
+  "difficulty": 1,
+  "tag": "Misc · Base64",
+  "description": "你捡到了一张纸条，上面写着三行看不懂的字符。\n\n下载分到的 secret-*.txt，找出 flag。",
+  "hints": [
+    "这不是加密，只是一种谁都能解开的编码；内容是按行分开的。"
+  ],
+  "artifact": "secret.txt",
+  "artifact_inline": false,
+  "attachment_pool": "attachments/14-misc-base64/pool"
+}

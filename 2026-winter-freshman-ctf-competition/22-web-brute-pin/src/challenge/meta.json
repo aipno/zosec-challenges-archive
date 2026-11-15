@@ -1,0 +1,21 @@
+{
+  "id": "22",
+  "slug": "22-web-brute-pin",
+  "type": "web",
+  "category": "web",
+  "title": "支付密码",
+  "summary": "四位数字的支付密码验证页。",
+  "difficulty": 2,
+  "tag": "Web · 爆破（二）",
+  "description": "支付密码验证页：只有 4 位数字。\n\n猜出 PIN，拿到 flag。",
+  "hints": [
+    "限速只拦失败的尝试：被限速时重试同一个 PIN，别跳过；页面用 data-result 区分成功、失败和被限速。"
+  ],
+  "port": 8000,
+  "flag_prefix": "flag",
+  "recommended": {
+    "cpu": 5,
+    "memory_mb": 128,
+    "network": "isolated"
+  }
+}

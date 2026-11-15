@@ -1,0 +1,12 @@
+{
+  "id": "11",
+  "slug": "11-bandit-lite",
+  "type": "terminal",
+  "title": "Bandit-lite：五关小迷宫",
+  "summary": "五个关卡，一路走到档案库最深处，拼出通行令牌。",
+  "difficulty": 5,
+  "description": "一台隔离的 Linux 沙箱，地下有五层。每一关都会留下下一关的线索；最终 token 被拆成 part1、part2、part3，level5 里写着拼接规则。\n\n把拼出来的 32 位十六进制 token 填到下方输入框，领取 flag。",
+  "session_seconds": 1200,
+  "max_sessions": 4,
+  "idle_seconds": 900
+}

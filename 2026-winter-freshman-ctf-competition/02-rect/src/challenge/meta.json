@@ -1,0 +1,13 @@
+{
+  "id": "02",
+  "slug": "02-rect",
+  "title": "矩形计算",
+  "summary": "用算术运算符计算面积和周长。",
+  "difficulty": 2,
+  "description": "实现 solve(case)，返回矩形的 [面积, 周长]。\n\ncase 形如 {\"width\": 3, \"height\": 4}，宽和高都是非负整数。\n\n示例：\n3 x 4 -> [12, 14]\n5 x 2 -> [10, 14]\n0 x 5 -> [0, 10]",
+  "file_name": "solution.py",
+  "case_count": 20,
+  "time_limit_seconds": 5,
+  "memory_mb": 128,
+  "max_upload_bytes": 32768
+}

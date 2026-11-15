@@ -1,0 +1,12 @@
+{
+  "id": "12",
+  "slug": "12-proc-hunt",
+  "type": "terminal",
+  "title": "进程猎手",
+  "summary": "三个后台进程里，有一个手里还攥着本题的 token。",
+  "difficulty": 6,
+  "description": "沙箱里有三个长期运行的后台进程。其中一个进程手里还拿着本题的 token：那份文件已经从目录里消失，但还没有真正离开系统。\n\n找到 token=... 的值，提交到网页。\n\n注意：不要重启或杀掉这些进程，否则线索会永久丢失。\n这道题考的是 Linux 进程与文件的关系，不是提权。",
+  "session_seconds": 1200,
+  "max_sessions": 4,
+  "idle_seconds": 900
+}

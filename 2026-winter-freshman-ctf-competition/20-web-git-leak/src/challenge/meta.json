@@ -1,0 +1,21 @@
+{
+  "id": "20",
+  "slug": "20-web-git-leak",
+  "type": "web",
+  "category": "web",
+  "title": "MiniShop 商城",
+  "summary": "一家倒闭的网店，只剩下空荡荡的首页。",
+  "difficulty": 2,
+  "tag": "Web · 信息搜集（二）",
+  "description": "MiniShop 商城只剩一个空荡荡的首页：商品列表和购物车的链接都还在，页面本身却没什么内容。\n\n从站点里找出 flag。",
+  "hints": [
+    "版本控制目录和编辑器备份文件如果留在线上，是可以直接读的。"
+  ],
+  "port": 8000,
+  "flag_prefix": "flag",
+  "recommended": {
+    "cpu": 2,
+    "memory_mb": 128,
+    "network": "isolated"
+  }
+}

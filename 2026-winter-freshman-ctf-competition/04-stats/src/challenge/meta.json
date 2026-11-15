@@ -1,0 +1,13 @@
+{
+  "id": "04",
+  "slug": "04-stats",
+  "title": "列表统计",
+  "summary": "列表聚合、去重与排序。",
+  "difficulty": 4,
+  "description": "实现 solve(case)，对 case[\"numbers\"] 汇总后返回 [总和, 最大值, 最小值, 去重升序列表]。\n\ncase[\"numbers\"] 是非空整数列表，可能有重复，也可能有负数。\n\n示例：\n[3, 1, 7] -> [11, 7, 1, [1, 3, 7]]\n[2, 2, 2] -> [6, 2, 2, [2]]\n[-5, 0, 5, 0] -> [0, 5, -5, [-5, 0, 5]]",
+  "file_name": "solution.py",
+  "case_count": 20,
+  "time_limit_seconds": 5,
+  "memory_mb": 128,
+  "max_upload_bytes": 32768
+}

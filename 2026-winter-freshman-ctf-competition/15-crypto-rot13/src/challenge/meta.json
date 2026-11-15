@@ -1,0 +1,17 @@
+{
+  "id": "15",
+  "slug": "15-crypto-rot13",
+  "type": "attachment",
+  "category": "crypto",
+  "title": "罗马将军的笔记",
+  "summary": "一张读不懂的古代笔记。",
+  "difficulty": 1,
+  "tag": "Crypto · ROT13",
+  "description": "一张古代笔记，字迹清楚，但读起来像另一种语言。\n\n下载分到的 note-*.txt，还原出隐藏的 flag。",
+  "hints": [
+    "字母被整体平移过，平移量是固定的；从 0 试到 25 总能撞到。"
+  ],
+  "artifact": "note.txt",
+  "artifact_inline": false,
+  "attachment_pool": "attachments/15-crypto-rot13/pool"
+}

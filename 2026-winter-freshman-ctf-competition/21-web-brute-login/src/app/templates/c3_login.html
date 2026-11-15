@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card">
+  <h2>管理后台</h2>
+  <p>欢迎回来，管理员。这里可以看到系统的重要数据。</p>
+  <!-- 部署备注：默认管理员账号 admin，密码是弱口令，记得改 -->
+  {% if logged %}
+    <p class="msg-ok" data-result="success">{{ msg }}</p>
+    <pre>flag = {{ flag }}</pre>
+  {% else %}
+    <form method="post" action="/login">
+      <label for="username">用户名</label>
+      <input type="text" id="username" name="username" placeholder="admin" autocomplete="off">
+      <label for="password">密码</label>
+      <input type="password" id="password" name="password" placeholder="******" autocomplete="off">
+      <button type="submit">登录</button>
+    </form>
+    {% if msg %}<p class="msg-bad" data-result="wrong">{{ msg }}</p>{% endif %}
+  {% endif %}
+</div>
+
+{% endblock %}

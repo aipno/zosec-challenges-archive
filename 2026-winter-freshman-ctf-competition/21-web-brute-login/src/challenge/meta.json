@@ -1,0 +1,21 @@
+{
+  "id": "21",
+  "slug": "21-web-brute-login",
+  "type": "web",
+  "category": "web",
+  "title": "管理后台登录",
+  "summary": "一个还在亮着的后台登录框。",
+  "difficulty": 2,
+  "tag": "Web · 爆破（一）",
+  "description": "管理后台的登录框还在。\n\n登录后台，拿到管理员才能看到的 flag。",
+  "hints": [
+    "这套后台没有验证码，也没有失败锁定。"
+  ],
+  "port": 8000,
+  "flag_prefix": "flag",
+  "recommended": {
+    "cpu": 5,
+    "memory_mb": 128,
+    "network": "isolated"
+  }
+}

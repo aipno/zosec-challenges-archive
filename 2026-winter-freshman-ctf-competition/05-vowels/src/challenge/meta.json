@@ -1,0 +1,13 @@
+{
+  "id": "05",
+  "slug": "05-vowels",
+  "title": "元音统计",
+  "summary": "统计元音，并在并列时按字母序选出出现最多的那个。",
+  "difficulty": 5,
+  "description": "实现 solve(case)，统计 case[\"text\"] 里的元音，返回 [元音总数, 出现次数最多的元音]。\n\n元音只有 a、e、i、o、u，大小写都算，结果里的元音用小写。\n\n- 没有元音时返回 [0, \"\"]\n- 多个元音的次数并列最多时，取字母序最小的那个\n\n示例：\n\"Hello World\" -> [3, \"o\"]\n\"aeiou AEIOU\" -> [10, \"a\"]\n\"xyz\" -> [0, \"\"]",
+  "file_name": "solution.py",
+  "case_count": 20,
+  "time_limit_seconds": 5,
+  "memory_mb": 128,
+  "max_upload_bytes": 32768
+}

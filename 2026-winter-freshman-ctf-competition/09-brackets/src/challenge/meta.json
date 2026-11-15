@@ -1,0 +1,13 @@
+{
+  "id": "09",
+  "slug": "09-brackets",
+  "title": "括号校验",
+  "summary": "用列表当栈检查括号配对，并统计最大嵌套深度。",
+  "difficulty": 9,
+  "description": "实现 solve(case)，检查 case[\"text\"] 中的括号是否配对，返回 [是否合法, 最大嵌套深度]。\n\n文本只包含三种括号：()、[]、{}，没有其他字符。\n\n- 类型必须一一对应，\"(]\" 和 \"([)]\" 都不合法\n- 合法时深度是扫描过程中栈的最大高度；空串合法，深度为 0\n- 不合法时返回 [False, 0]\n\n示例：\n\"()\" -> [True, 1]\n\"{[()]}\" -> [True, 3]\n\"([)]\" -> [False, 0]\n\"(]\" -> [False, 0]",
+  "file_name": "solution.py",
+  "case_count": 20,
+  "time_limit_seconds": 5,
+  "memory_mb": 128,
+  "max_upload_bytes": 32768
+}

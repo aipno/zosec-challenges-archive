@@ -1,0 +1,19 @@
+{
+  "id": "19",
+  "slug": "19-web-robots",
+  "type": "web",
+  "category": "web",
+  "title": "运维小站",
+  "summary": "一个平平无奇的运维小站。",
+  "difficulty": 1,
+  "tag": "Web · 信息搜集（一）",
+  "description": "一个运维小站，首页只有几行冷冰冰的公告。\n\n找出站点里隐藏的 flag。",
+  "hints": [],
+  "port": 8000,
+  "flag_prefix": "flag",
+  "recommended": {
+    "cpu": 2,
+    "memory_mb": 128,
+    "network": "isolated"
+  }
+}

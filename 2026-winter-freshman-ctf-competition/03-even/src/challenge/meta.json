@@ -1,0 +1,13 @@
+{
+  "id": "03",
+  "slug": "03-even",
+  "title": "奇偶名单",
+  "summary": "练习 for 循环、取模和 if/else。",
+  "difficulty": 3,
+  "description": "实现 solve(case)，判断 case[\"numbers\"] 中每个整数的奇偶。\n\n偶数返回 \"even\"，奇数返回 \"odd\"。0 是偶数，空列表返回空列表。\n\n示例：\n[1, 2, 3, 4] -> [\"odd\", \"even\", \"odd\", \"even\"]\n[10, 7] -> [\"even\", \"odd\"]\n[] -> []",
+  "file_name": "solution.py",
+  "case_count": 20,
+  "time_limit_seconds": 5,
+  "memory_mb": 128,
+  "max_upload_bytes": 32768
+}

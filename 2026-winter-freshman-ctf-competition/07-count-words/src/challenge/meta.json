@@ -1,0 +1,13 @@
+{
+  "id": "07",
+  "slug": "07-count-words",
+  "title": "单词排行",
+  "summary": "统计词频，按次数和字母序取出前 k 个单词。",
+  "difficulty": 7,
+  "description": "实现 solve(case)，统计 case[\"words\"] 中每个单词的出现次数，返回出现最多的前 case[\"k\"] 个单词。\n\n排序规则：\n\n- 次数多的排在前面\n- 次数相同时，按单词字母序升序\n- 去重后不足 k 个时，返回全部\n\n示例：\n{\"words\": [\"apple\", \"banana\", \"apple\"], \"k\": 2} -> [\"apple\", \"banana\"]\n{\"words\": [\"b\", \"a\", \"b\", \"a\", \"c\"], \"k\": 2} -> [\"a\", \"b\"]\n{\"words\": [\"x\"], \"k\": 3} -> [\"x\"]",
+  "file_name": "solution.py",
+  "case_count": 20,
+  "time_limit_seconds": 5,
+  "memory_mb": 128,
+  "max_upload_bytes": 32768
+}

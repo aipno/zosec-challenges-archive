@@ -1,0 +1,13 @@
+{
+  "id": "06",
+  "slug": "06-reverse-words",
+  "title": "反转单词",
+  "summary": "处理多余空格，按单词反转句子。",
+  "difficulty": 6,
+  "description": "实现 solve(case)，把 case[\"sentence\"] 的单词顺序反转后返回。\n\n句子可能有前导、尾随和连续空格。返回时去掉首尾空格，单词之间只用一个空格连接；没有单词时返回 \"\"。\n\n示例：\n\"hello world\" -> \"world hello\"\n\"  python   is  fun  \" -> \"fun is python\"\n\"   \" -> \"\"",
+  "file_name": "solution.py",
+  "case_count": 20,
+  "time_limit_seconds": 5,
+  "memory_mb": 128,
+  "max_upload_bytes": 32768
+}

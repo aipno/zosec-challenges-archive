@@ -1,0 +1,12 @@
+{
+  "id": "13",
+  "slug": "13-fix-server",
+  "type": "terminal",
+  "title": "修好这个站点",
+  "summary": "一台坏掉的静态站点服务器，让它重新上线。",
+  "difficulty": 7,
+  "description": "沙箱里有一个坏掉的静态站点：服务起不来，健康检查也不通过。TASK.md 里写着本次会话的 SITE_PORT、SITE_ROOT 和 GATE_PORT。\n\n把它修好、在后台跑起来，然后访问 http://127.0.0.1:<GATE_PORT>/token 领取 token 并提交。\n健康检查的 checks 字段会逐项告诉你还差什么。",
+  "session_seconds": 1200,
+  "max_sessions": 4,
+  "idle_seconds": 900
+}

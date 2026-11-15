@@ -1,0 +1,21 @@
+{
+  "id": "17",
+  "slug": "17-web-view-source",
+  "type": "attachment",
+  "category": "web",
+  "title": "登录页面",
+  "summary": "一个内部管理系统的登录页。",
+  "difficulty": 1,
+  "tag": "Web · 源码泄露",
+  "description": "一个内部管理系统的登录页。随便输什么都登不进去。\n\n打开题目文件 login.html，找出隐藏的 flag。",
+  "hints": [],
+  "artifact": "login.html",
+  "artifact_inline": true,
+  "port": 8000,
+  "flag_prefix": "flag",
+  "recommended": {
+    "cpu": 1,
+    "memory_mb": 96,
+    "network": "isolated"
+  }
+}

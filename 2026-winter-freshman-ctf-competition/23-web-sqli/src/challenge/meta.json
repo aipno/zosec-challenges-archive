@@ -1,0 +1,21 @@
+{
+  "id": "23",
+  "slug": "23-web-sqli",
+  "type": "web",
+  "category": "web",
+  "title": "会员登录",
+  "summary": "一个十年前的会员系统登录页。",
+  "difficulty": 2,
+  "tag": "Web · SQL 注入",
+  "description": "会员系统的登录页，十年前外包做的。\n\n以管理员身份登录，拿到 flag。",
+  "hints": [
+    "登录语句是字符串拼接出来的，不是参数化查询。"
+  ],
+  "port": 8000,
+  "flag_prefix": "flag",
+  "recommended": {
+    "cpu": 2,
+    "memory_mb": 128,
+    "network": "isolated"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "01",
+  "slug": "01-hello",
+  "title": "你好，CTF",
+  "summary": "练习变量、字符串和 f-string。",
+  "difficulty": 1,
+  "description": "实现 solve(case)，返回一句问候语。\n\ncase 形如 {\"name\": \"Alice\"}，返回 \"Hello, Alice!\"。\n\n示例：\nname = \"Alice\" -> \"Hello, Alice!\"\nname = \"Bob\" -> \"Hello, Bob!\"",
+  "file_name": "solution.py",
+  "case_count": 20,
+  "time_limit_seconds": 5,
+  "memory_mb": 128,
+  "max_upload_bytes": 32768
+}
